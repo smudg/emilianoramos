@@ -116,8 +116,8 @@ section{
   border: solid #f2fff5;
 }
 
-.velupy{
-  font-weight: bold;
+.pages{
+  text-align: center;
 }
 
 
@@ -139,5 +139,9 @@ section{
 
   h2{
     padding-top: 25px;
+  }
+
+  .pages{
+    text-align: left;
   }
 }
