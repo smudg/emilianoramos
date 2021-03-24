@@ -21,11 +21,7 @@ h6 {
 }
 
 h2{
-  padding-top: 5%;
-}
-
-section{
-  padding-bottom: 5%;
+  padding-top: 2%;
 }
 
 /*Headings*/
@@ -62,13 +58,38 @@ section{
 }
 
 .link:hover {
-  color: #f2fff5;
+  color: #316e63;
   text-decoration: solid underline 2px;
 }
 
 .c-row {
   padding-top: 5%;
   margin-top: 5%;
+}
+
+.icons {
+  font-size: 2rem;
+  padding: 5px 10px;
+}
+
+#toTop {
+  display: none;
+  position: fixed;
+  bottom: 80px;
+  right: 60px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.bi-arrow-up-square-fill{
+  font-size: 3rem;
+}
+
+.bi-arrow-up-square-fill:hover{
+  color: #316e63;
 }
 
 /*NavBar*/
@@ -122,11 +143,6 @@ section{
 
 
 /*Contact*/
-.bi {
-  font-size: 2rem;
-  padding: 5px 10px;
-}
-
 .contact {
   text-align: center;
   color: #20355b;
@@ -143,5 +159,21 @@ section{
 
   .pages{
     text-align: left;
+  }
+
+  #toTop {
+    display: none;
+    position: fixed;
+    bottom: 40px;
+    right: 30px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    cursor: pointer;
+  }
+  
+  .bi-arrow-up-square-fill{
+    font-size: 2rem;
   }
 }
